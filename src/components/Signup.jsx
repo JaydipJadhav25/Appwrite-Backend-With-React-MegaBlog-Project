@@ -13,6 +13,7 @@ export const Signup = () => {
     const {register , handleSubmit ,  }  = useForm();
 
 
+
     const create = async(data) =>{
         setError("");
 
@@ -25,10 +26,12 @@ export const Signup = () => {
             }
             
         } catch (error) {
+            
             setError(error.massage);
             
         }
     }
+
 
     return (
         <div className="flex items-center justify-center">
