@@ -6,7 +6,7 @@ import authservices from '../Appwriter/auth'
 import { useDispatch } from 'react-redux'
 import { useForm} from "react-hook-form"
 
-export const Signup = () => {
+ const Signup = () => {
     const nagivate = useNavigate();
     const disptach = useDispatch();
     const[error , setError] = useState("");
@@ -34,7 +34,7 @@ export const Signup = () => {
 
 
     return (
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mb-4">
                 <div className={`mx-auto w-full max-w-lg bg-gray-100 rounded-xl p-10 border border-black/10`}>
                 <div className="mb-2 flex justify-center">
                         <span className="inline-block w-full max-w-[100px]">

@@ -1,6 +1,6 @@
 
 
-export const Logo = () => {
+ const Logo = () => {
   return (
     
     <div>Logo</div>
